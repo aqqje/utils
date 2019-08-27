@@ -62,12 +62,12 @@ var urlPrefix = "http://"+window.location.host;
 window.onload=clock;
     function clock(){
         var time = "[[${endTime}]]";
-        console.log("time:"+time.replace(/-/g, "/"));
+        console.log("time:"+time.replace(/\-/g,"\/"));
         var today=new Date(),//当前时间
         h=today.getHours(),
         m=today.getMinutes(),
         s=today.getSeconds();
-        var stopTime=new Date(time.replace(/-/g, "/")),//结束时间
+        var stopTime=new Date(time.replace(/\-/g,"\/")),//结束时间
         stopH=stopTime.getHours(),
         stopM=stopTime.getMinutes(),
         stopS=stopTime.getSeconds();
