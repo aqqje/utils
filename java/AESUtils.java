@@ -9,9 +9,6 @@ import javax.crypto.spec.SecretKeySpec;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 
-/**
- * Created by zjc on 2017/10/18.
- */
 public class AESUtils {
 
 

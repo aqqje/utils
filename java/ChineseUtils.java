@@ -3,10 +3,6 @@ package com.pepay.app.commons.utils;
 import java.util.ArrayList;
 import java.util.Collections;
 
-/**
- * 数字转汉字
- * Created by aqqje on 2019/8/13 0013
- */
 public class ChineseUtils {
     /**
      * 单位进位，中文默认为4位即（万、亿）

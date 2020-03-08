@@ -10,10 +10,6 @@ import java.nio.charset.UnsupportedCharsetException;
 import java.security.AccessController;
 import java.util.BitSet;
 
-/**
- * URL 编码工具类
- * Created by aqqje on 2019/9/18 0018
- */
 public class AURLEncoder {
     static BitSet dontNeedEncoding;
     static final int caseDiff = ('a' - 'A');

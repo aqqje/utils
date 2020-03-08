@@ -9,9 +9,6 @@ import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.UUID;
 
-/**
- * Created by aqqje on 2019/9/19 0019
- */
 public class AutoIDQrcode {
 
 

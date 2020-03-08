@@ -22,19 +22,6 @@ import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
 import java.util.*;
 
-/**
- * 加解密工具类
- * MD5加密
- * BASE64加解密
- * DES加解密
- * AES加解密
- * RSA加解密
- * RSA签到验签
- *
- * @author Renne66
- * @version V1.3
- * @date 2016-11-04
- */
 public final class CipherUtil {
     private static final Logger logger = LoggerFactory.getLogger(CipherUtil.class);
     private static final String ENCODING = "UTF-8";

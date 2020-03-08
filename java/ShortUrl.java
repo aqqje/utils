@@ -9,10 +9,6 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * 将长链接转短链接
- * Created by aqqje on 2019/9/19 0019
- */
 public class ShortUrl {
 
     private final static String APIKEY = "mr3gxLEO2EVTr8JV8g@ddd";

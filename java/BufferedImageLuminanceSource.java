@@ -5,9 +5,6 @@ import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
 import com.google.zxing.LuminanceSource;
 
-/**
- * Created by aqqje on 2019/8/8 0008
- */
 public class BufferedImageLuminanceSource extends LuminanceSource {
     private final BufferedImage image;
     private final int left;

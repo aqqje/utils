@@ -10,10 +10,6 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
-/**
- * @author DongMengYao
- * @version $Id: DateUtil.java, v 0.1 2015年8月10日 下午3:10:28 DongMengYao Exp $
- */
 public class DateUtil {
 
     public static final long             ONE_DAY        = 86400000l;

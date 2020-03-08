@@ -2,11 +2,6 @@ package com.pepay.app.commons.utils;
 
 import java.security.MessageDigest;
 
-/**
- * md5 加密工具
- * @author wangwch
- *
- */
 public class Md5Utils {
 
 	/**

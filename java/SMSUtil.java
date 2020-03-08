@@ -16,7 +16,7 @@ public class SMSUtil {
 
     public static String sendCode(String mobile) throws UnsupportedEncodingException {
         String code = RandomStringUtils.randomNumeric(6);
-        String content = "【传奇付】您的验证码是" + code + "，有效时间10分钟，请勿告诉他人！";
+        String content = "【xxxx】您的验证码是" + code + "，有效时间10分钟，请勿告诉他人！";
         String url = "http://www.ztsms.cn/sendNSms.do";
         String username = "jucai";//内容
         String password = "ZGeca6Mb";//密码

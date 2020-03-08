@@ -27,9 +27,6 @@ import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 import com.pepay.app.commons.CryptAESUtils;
 import com.pepay.app.entity.Member;
 
-/**
- * Created by aqqje on 2019/8/8 0008
- */
 public class QRCodeUtil {
 
     private static final String CHARSET = "utf-8";
